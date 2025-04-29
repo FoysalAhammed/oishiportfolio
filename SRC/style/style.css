@@ -1316,12 +1316,11 @@ header.scrolled {
 	margin-left: 10px;
 	margin-right: 10px;
 	border: 2px solid var(--main-color);
-	border-bottom: 0px;
 	border-radius: 10px 10px 0px 0px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	background: rgba(255, 255, 255, 0.1);
 	backdrop-filter: blur(4px);
-	/* color: var(--main-color); */
+	color: var(--main-color);
 }
 
 .career-main .career-section .header-line {
@@ -1329,7 +1328,8 @@ header.scrolled {
 	height: 4px;
 	background-color: var(--main-color);
 	border-radius: 20px;
-	/* margin-top: 5px; */
+	margin-top: 5px;
+	display: none;
 }
 
 .career-main .career-section .professional-summary .texts {
